@@ -1,4 +1,7 @@
+-- TODO Re-size vsplit
+
 -- "Theme"
+--
 vim.cmd([[
   match ExtraWhitespace /\s\+$/
   highlight ExtraWhitespace ctermbg=1
@@ -20,7 +23,6 @@ vim.api.nvim_create_autocmd("ColorScheme", {
     ]])
 	end,
 })
-
 -- Most of the options are set by a global $HOME/.editorconfig.
 vim.opt.wrap = false
 vim.opt.showmatch = true
@@ -29,5 +31,7 @@ vim.opt.list = true
 -- Keybindings
 vim.keymap.set("n", "<C-N>", "<cmd>bnext<cr>")
 vim.keymap.set("n", "<C-P>", "<cmd>bprev<cr>")
-vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>")
+vim.keymap.set("n", "<Esc><Esc>", "<C-\\><C-n>")
+vim.keymap.set("n", "<C-H>", "<C-W><C-H>")
+vim.keymap.set("n", "<C-L>", "<C-W><C-L>")
 vim.g.mapleader = " "

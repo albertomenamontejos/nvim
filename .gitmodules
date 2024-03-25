@@ -37,3 +37,6 @@
 [submodule "pack/shell/start/fzf-lua"]
 	path = pack/shell/start/fzf-lua
 	url = https://github.com/ibhagwan/fzf-lua
+[submodule "ccc.nvim"]
+	path = ccc.nvim
+	url = https://github.com/uga-rosa/ccc.nvim
