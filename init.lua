@@ -1,5 +1,6 @@
 -- TODO Re-size vsplit
 
+--vim.cmd("colorscheme github_dark_high_contrast")
 -- "Theme"
 --
 vim.cmd([[
@@ -18,7 +19,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 	desc = "Cosmetic changes",
 	callback = function()
 		vim.cmd([[
-      highlight VertSplit cterm=NONE ctermbg=NONE
+		  highlight VertSplit cterm=NONE ctermbg=NONE
       highlight ExtraWhitespace ctermbg=1
     ]])
 	end,
@@ -35,3 +36,4 @@ vim.keymap.set("n", "<Esc><Esc>", "<C-\\><C-n>")
 vim.keymap.set("n", "<C-H>", "<C-W><C-H>")
 vim.keymap.set("n", "<C-L>", "<C-W><C-L>")
 vim.g.mapleader = " "
+--vim.cmd('colorscheme github_dark_high_contrast')

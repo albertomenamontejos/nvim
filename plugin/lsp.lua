@@ -85,6 +85,10 @@ lspconfig.emmet_ls.setup({
 	},
 })
 
+lspconfig.jdtls.setup({
+	filetypes = {"java", "jsp" }
+})
+
 -- Disable semantic highlight
 local disable_semantic_highlight = function()
 	local compl = vim.fn.getcompletion("@lsp", "highlight")

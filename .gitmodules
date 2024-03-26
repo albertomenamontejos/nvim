@@ -37,6 +37,15 @@
 [submodule "pack/shell/start/fzf-lua"]
 	path = pack/shell/start/fzf-lua
 	url = https://github.com/ibhagwan/fzf-lua
-[submodule "ccc.nvim"]
-	path = ccc.nvim
+[submodule "pack/lsp/start/ccc"]
+	path = pack/lsp/start/ccc
 	url = https://github.com/uga-rosa/ccc.nvim
+[submodule "pack/lsp/start/nvim-jdtls"]
+	path = pack/lsp/start/jdtls
+	url = https://github.com/mfussenegger/nvim-jdtls.git
+[submodule "pack/coding/start/nvim-treesitter"]
+	path = pack/coding/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "pack/coding/start/null-ls"]
+	path = pack/coding/start/null-ls
+	url = https://github.com/jose-elias-alvarez/null-ls.nvim
